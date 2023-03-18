@@ -1,0 +1,11 @@
+{
+    "name": "Compra",
+    "alias": "compra",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Compra\\Providers\\CompraServiceProvider"
+    ],
+    "files": []
+}

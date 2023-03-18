@@ -1,0 +1,11 @@
+{
+    "name": "Venta",
+    "alias": "venta",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Venta\\Providers\\VentaServiceProvider"
+    ],
+    "files": []
+}
