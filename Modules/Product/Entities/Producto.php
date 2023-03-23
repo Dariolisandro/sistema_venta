@@ -10,8 +10,16 @@ use Modules\Proveedor\Entities\Provider;
 class Producto extends Model
 {
     use HasFactory;
+    protected $guarded =[];
+    public function category(){
+        return $this->belongsTo(Category::class);
 
-    protected $fillable = [
+    }
+    public function provider(){
+        return $this->belongsTo(Provider::class);
+    }
+
+    /*protected $fillable = [
 
          'code',
         'name',
@@ -23,7 +31,7 @@ class Producto extends Model
         'category_id',
         'provider_id' ,
     ];
-
+*/
     public function category(){
         return $this->belongsTo(Category::class);
 

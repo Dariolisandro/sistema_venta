@@ -2,5 +2,10 @@
     "Venta": true,
     "Dashboard": true,
     "Compra": true,
-    "Ventas": true
+    "Ventas": true,
+    "Purchase": true,
+    "Sale": true,
+    "Prueba": true,
+    "Categoy": true,
+    "Category": true
 }

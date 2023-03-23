@@ -1,0 +1,11 @@
+{
+    "name": "Prueba",
+    "alias": "prueba",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Prueba\\Providers\\PruebaServiceProvider"
+    ],
+    "files": []
+}
